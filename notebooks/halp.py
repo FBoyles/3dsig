@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 from sklearn.metrics import auc, roc_curve, precision_recall_curve, average_precision_score
 
@@ -58,4 +59,3 @@ def draw_pr_curve(y_true, y_score, ax=None, annot=True, **kwargs):
     ax.legend(loc='best')
     
     return ax
-
