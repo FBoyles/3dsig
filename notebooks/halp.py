@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-<<<<<<< HEAD
 import pandas as pd
 import seaborn as sns
-=======
->>>>>>> aa5d1494fd7023f927efca51a9190652e91df533
 
 from sklearn.metrics import auc, roc_curve, precision_recall_curve, average_precision_score, confusion_matrix
 
@@ -31,7 +28,7 @@ def draw_roc_curve(y_true, y_score, ax=None, annot=True, **kwargs):
     ax.plot(fpr, tpr, label=label)
     ax.set_xlabel('False positive rate')
     ax.set_ylabel('True positive rate')
-    ax.legend(loc='best')
+    ax.legend(loc='best', fancybox=True)
     
     return ax
 
@@ -64,7 +61,6 @@ def draw_pr_curve(y_true, y_score, ax=None, annot=True, **kwargs):
     ax.legend(loc='best')
     
     return ax
-<<<<<<< HEAD
 
 def draw_confusion_matrix(y_true, y_predicted, class_labels=None, ax=None):
     
@@ -83,5 +79,3 @@ def draw_confusion_matrix(y_true, y_predicted, class_labels=None, ax=None):
     ax.set_xlabel('True class label')
 
     return ax
-=======
->>>>>>> aa5d1494fd7023f927efca51a9190652e91df533
