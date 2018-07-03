@@ -1,0 +1,13 @@
+name: fergalicious
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - nb_conda_kernels
