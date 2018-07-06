@@ -32,7 +32,32 @@ plotting.py - This is some code we'll be using to generate figures in the notebo
 
 There is a file called fergalicious.yml in the top-level directory. This file specifies the conda environment we'll be using during the workshop, and can be used by conda to automatically build the environment for us.
 
+__Quick start guide:__
+1. Download all materials (incl. data) from http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
+2. Download Miniconda from https://conda.io/docs/user-guide/install/index.html#system-requirements
+3. Ensure conda and conda-build are updated:
+```
+conda update conda
+conda update conda-build
+```
+4. Create conda environment for workshop
+```
+conda env build -f fergalicious.yml
+```
+5. Activate conda environment
+```
+source activate fergalicious # Linux/MacOS
+active fergalicious          # Windows
+```
+6. Launch JupyterLab
+```
+jupyter-lab
+```
+7. Open either of the .ipnb notedbooks.
+
+
 _1. Download materials:_
+
 Direct download of all materials required can be found at http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
 Alternatively, clone this repo, and download the data separately at https://www.stats.ox.ac.uk/~imrie/data.zip
 
