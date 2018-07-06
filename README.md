@@ -12,7 +12,7 @@ NOTE: There is no requirement to download anything to particpate in the workshop
 
 __Instructions:__
 
-A zip containing all materials (incl. data) can be found at http://opig.stats.ox.ac.uk/webapps/ISMB2018
+A zip containing all materials (incl. data) can be found at http://opig.stats.ox.ac.uk/webapps/ISMB_2018.html
 
 
 0.5: If you downloaded this from GitHub, download the data
@@ -32,7 +32,11 @@ plotting.py - This is some code we'll be using to generate figures in the notebo
 
 There is a file called fergalicious.yml in the top-level directory. This file specifies the conda environment we'll be using during the workshop, and can be used by conda to automatically build the environment for us.
 
-1: Install and update conda
+_1. Download materials:_
+Direct download of all materials required can be found at http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
+Alternatively, clone this repo, and download the data separately at https://www.stats.ox.ac.uk/~imrie/data.zip
+
+_2. Install and update conda:_
 
 We'll be using conda to create an isolated Python installation. If you don't have a conda installation, you can follow the instructions at https://conda.io/docs/user-guide/install/index.html#system-requirements to set up a conda installation on Windows, MacOS, or Linux. We recommend installing Miniconda rather than Anaconda as it is much smaller, and we'll be installing the python packages we need later anyway. It doesn't matter which version of Python you initially install with conda since we'll be creating a new python installation for the workshop. If you already have a conda installation, you'll want to make sure both conda and conda build are reasonably up-to-date. You can update conda and conda build in a Terminal window or Anaconda prompt by running:
 ```
@@ -45,7 +49,7 @@ If for whatever reason you don't have conda build, you can install it by running
 conda install conda-build
 ```
 
-2: Create a conda environment for the workshop
+_3. Create a conda environment for the workshop:_
 
 The file fergalicious.yml specifies the python version and all packages used when running the notebooks. To create the conda environment from a Terminal window or Anaconda prompt, run:
 ```
@@ -61,7 +65,7 @@ and that the correct packages have been installed by running:
 ```
 conda list -n fergalicious
 ```
-3: Launch Jupyter and verify that you can use fergalicious as a kernel
+_4. Launch Jupyter and verify that you can use fergalicious as a kernel:_
 
 If you didn't have jupyter installed before creating the environment fergalicious, you'll first need to activate the environment so that your system can find jupyter. To do this in a Terminal (on Linux, MacOS, or on Windows using git-bash), run:
 ```
