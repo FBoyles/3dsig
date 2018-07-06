@@ -1,8 +1,18 @@
 Collaberative structural biology using machine learning and Jupyter notebook
 ============================================================================
-### Fergus Boyles and Fergus Imrie
-# _Department of Statistics, University of Oxford_
-# ISMB 2018
+## Fergus Boyles and Fergus Imrie
+### _Department of Statistics, University of Oxford_
+### ISMB 2018
+
+__Introduction:__
+
+Welcome to the GitHub repository containing all materials (excl. raw data) used in the above ISMB workshop.
+This workshop will include a live demonstration that we invite you to join in and follow along on your laptop, or to simply use these materials as a reference. 
+NOTE: There is no requirement to download anything to particpate in the workshop.
+
+__Instructions:__
+
+A zip containing all materials (incl. data) can be found at http://opig.stats.ox.ac.uk/webapps/ISMB2018
 
 
 0.5: If you downloaded this from GitHub, download the data
