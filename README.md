@@ -19,7 +19,7 @@ Fergus and Fergus
 __Quick start guide:__
 1. Download all materials (incl. data) from http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
 2. Download Miniconda from https://conda.io/docs/user-guide/install/index.html#system-requirements
-3. Ensure conda and conda-build are updated:
+3. Ensure conda and conda-build are up-to-date:
 ```
 conda update conda
 conda update conda-build
@@ -37,13 +37,13 @@ active fergalicious          # Windows
 ```
 jupyter-lab
 ```
-7. Open either of the .ipnb notedbooks.
+7. Open either of the .ipynb notebooks.
 
 __Full instructions:__
 
 _1. Download materials:_
 
-Direct download of a zip containing all materials required (incl. data) can be found at http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
+Direct download of a zip containing all materials required (incl. data) can be found at http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip.
 Alternatively, clone this repo, and download the data separately at https://www.stats.ox.ac.uk/~imrie/data.zip
 
 _2. Install and update conda:_
@@ -54,7 +54,7 @@ conda update conda
 conda update conda-build
 ```
 
-If for whatever reason you don't have conda build, you can install it by running:
+If you don't have conda build, you can install it by running:
 ```
 conda install conda-build
 ```
@@ -71,11 +71,11 @@ You can verify that conda has created an environment called 'fergalicious' by ru
 ```
 conda info --envs
 ```
-and that the correct packages have been installed by running:
+and check which packages have been installed by running:
 ```
 conda list -n fergalicious
 ```
-_4. Launch Jupyter and verify that you can use fergalicious as a kernel:_
+_4. Activate fergalicious and launch Jupyter:_
 
 If you didn't have jupyter installed before creating the environment fergalicious, you'll first need to activate the environment so that your system can find jupyter. To do this in a Terminal (on Linux, MacOS, or on Windows using git-bash), run:
 ```
@@ -107,7 +107,7 @@ You can create a new notebook by clicking the 'new' button in the top right of t
 
 You can also select an existing notebook to load from the files displayed. Load data/Workshop.ipynb. You can change the kernel used via the 'Kernel' menu on the toolbar at the top of the window.
 
-For the demonstration we'll be using JupyterLab, a browser-based computational environment that marries full support for jupyter notebooks with a host of handy features, such as a file browser, console, and support for multiple notebooks and test files in tabs. Although still in beta, the current release of JupyterLab is stable for daily use. If you appreciate the interactivity of jupyter notebooks but want some of the powerful features normally found in an IDE, I strongly recommend giving JupyterLab a try.
+For the demonstration we'll be using JupyterLab, a browser-based computational environment that marries full support for jupyter notebooks with a host of handy features, such as a file browser, console, and support for multiple notebooks and test files in tabs. Although still in beta, the current release of JupyterLab is stable for daily use. If you appreciate the interactivity of Jupyter notebooks but want some of the powerful features normally found in an IDE, I strongly recommend giving JupyterLab a try.
 
 To launch JupyterLab, run:
 ```
