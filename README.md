@@ -10,27 +10,11 @@ Welcome to the GitHub repository containing all materials (excl. raw data) used 
 This workshop will include a live demonstration that we invite you to join in and follow along on your laptop, or to simply use these materials as a reference. 
 NOTE: There is no requirement to download anything to particpate in the workshop.
 
-__Instructions:__
+A zip of all materials required can be found on the webpage for the workshop: http://opig.stats.ox.ac.uk/webapps/ISMB_2018.html
 
-A zip containing all materials (incl. data) can be found at http://opig.stats.ox.ac.uk/webapps/ISMB_2018.html
+Have fun, and we're looking forward to seeing you on Tuesday!
 
-
-0.5: If you downloaded this from GitHub, download the data
-
-TODO explain directory structure?
-
-There are two data files for this workshop, found in the 'data' folder:
-
-Data_3Dsig.txt - Computed features for pairs of protein sequences, together with labels that state whether the two proteins belong to the same family, superfamily, or fold.
-Data_Split.txt - Clustering information used to split the data set.
-
-There are two .ipynb files and one .py file, found in the 'notebooks' folder:
-
-Workshop.ipynb - This is an incomplete, lightweight version of the problem notebook that we'll use during the demonstration.
-Solution.ipynb - This is a complete notebook containing the full solution to the toy problem we'll be exploring in the demonstration, together with extensive markdown documentation and some extra code and figures.
-plotting.py - This is some code we'll be using to generate figures in the notebooks.
-
-There is a file called fergalicious.yml in the top-level directory. This file specifies the conda environment we'll be using during the workshop, and can be used by conda to automatically build the environment for us.
+Fergus and Fergus
 
 __Quick start guide:__
 1. Download all materials (incl. data) from http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
@@ -55,10 +39,11 @@ jupyter-lab
 ```
 7. Open either of the .ipnb notedbooks.
 
+__Full instructions:__
 
 _1. Download materials:_
 
-Direct download of all materials required can be found at http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
+Direct download of a zip containing all materials required (incl. data) can be found at http://www.stats.ox.ac.uk/~imrie/ismb_2018.zip
 Alternatively, clone this repo, and download the data separately at https://www.stats.ox.ac.uk/~imrie/data.zip
 
 _2. Install and update conda:_
@@ -130,6 +115,21 @@ jupyter-lab
 ```
 From here, you can view the files in your current directory, and choose a kernel to start a new notebook. Try loading Workshop.ipynb and experimenting with the features available.
 
-Have fun, and we're looking forward to seeing you on Tuesday!
+0.5: If you downloaded this from GitHub, download the data
 
-Fergus and Fergus
+TODO explain directory structure?
+
+__File overview:__
+
+There are two data files for this workshop, found in the 'data' folder:
+
+Data_3Dsig.txt - Computed features for pairs of protein sequences, together with labels that state whether the two proteins belong to the same family, superfamily, or fold.
+Data_Split.txt - Clustering information used to split the data set.
+
+There are two .ipynb files and one .py file, found in the 'notebooks' folder:
+
+Workshop.ipynb - This is an incomplete, lightweight version of the problem notebook that we'll use during the demonstration.
+Solution.ipynb - This is a complete notebook containing the full solution to the toy problem we'll be exploring in the demonstration, together with extensive markdown documentation and some extra code and figures.
+plotting.py - This is some code we'll be using to generate figures in the notebooks.
+
+There is a file called fergalicious.yml in the top-level directory. This file specifies the conda environment we'll be using during the workshop, and can be used by conda to automatically build the environment for us.
