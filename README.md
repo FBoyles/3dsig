@@ -39,12 +39,10 @@ We'll be using conda to create an isolated Python installation. If you don't hav
 conda update conda
 conda update conda-build
 ```
-```
 
 If for whatever reason you don't have conda build, you can install it by running:
 ```
 conda install conda-build
-```
 ```
 
 2: Create a conda environment for the workshop
@@ -53,18 +51,15 @@ The file fergalicious.yml specifies the python version and all packages used whe
 ```
 conda env build -f fergalicious.yml
 ```
-```
 This should create a new conda environment with an installation of python 3.6 and the packages numpy, pandas, scikit-learn, matplotlib, and seaborn. It will also install jupyter, jupyter lab, and nb_conda_kernels (required for jupyter lab to use the python interpreter in this installation as a kernel).
 
 You can verify that conda has created an environment called 'fergalicious' by running:
 ```
 conda info --envs
 ```
-```
 and that the correct packages have been installed by running:
 ```
 conda list -n fergalicious
-```
 ```
 3: Launch Jupyter and verify that you can use fergalicious as a kernel
 
@@ -72,16 +67,13 @@ If you didn't have jupyter installed before creating the environment fergaliciou
 ```
 source activate fergalicious
 ```
-```
 If you're working on Windows, you can instead activate the environment in a command prompt or powershell session by running:
 ```
 activate fergalicious
 ```
-```
 Finally, in an Anaconda prompt, you can run:
 ```
 conda activate fergalicious
-```
 ```
 As long as the environment remains active, any commands you run in this window will use the python interpreter installed in the environment instead of your default python interpreter.
 
@@ -91,13 +83,11 @@ source deactivate fergalicious # Linux/Mac
 deactivate fergalicious        # Windows
 conda deactivate fergalicious  # Anaconda prompt
 ```
-```
 If you already have a jupyter installation, you can launch jupyter using your existing installation. Because we install nb_conda_kernels you can select fergalicious as a kernel from within a jupyter session even if the environment isn't active.
 
 To launch jupyter notebook, run:
 ```
 jupyter-notebook
-```
 ```
 You can create a new notebook by clicking the 'new' button in the top right of the window. This will show a drop-down menu listing all the kernels jupyter can use. You should be able to select conda env:fergalicious from this menu.
 
@@ -108,7 +98,6 @@ For the demonstration we'll be using JupyterLab, a browser-based computational e
 To launch JupyterLab, run:
 ```
 jupyter-lab
-```
 ```
 From here, you can view the files in your current directory, and choose a kernel to start a new notebook. Try loading Workshop.ipynb and experimenting with the features available.
 
