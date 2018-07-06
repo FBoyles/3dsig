@@ -115,10 +115,6 @@ jupyter-lab
 ```
 From here, you can view the files in your current directory, and choose a kernel to start a new notebook. Try loading Workshop.ipynb and experimenting with the features available.
 
-0.5: If you downloaded this from GitHub, download the data
-
-TODO explain directory structure?
-
 __File overview:__
 
 There are two data files for this workshop, found in the 'data' folder:
