@@ -7,7 +7,7 @@ Collaberative structural biology using machine learning and Jupyter notebook
 __Introduction:__
 
 Welcome to the GitHub repository containing all materials (excl. raw data) used in the above ISMB workshop.
-This workshop will include a live demonstration that we invite you to join in and follow along on your laptop, or to simply use these materials as a reference. 
+This workshop will include a live demonstration and we invite you to join in and follow along on your laptop, or to simply use these materials as a reference. 
 NOTE: There is no requirement to download anything to particpate in the workshop.
 
 A zip of all materials required can be found on the webpage for the workshop: http://opig.stats.ox.ac.uk/webapps/ISMB_2018.html
@@ -115,6 +115,13 @@ jupyter-lab
 ```
 From here, you can view the files in your current directory, and choose a kernel to start a new notebook. Try loading Workshop.ipynb and experimenting with the features available.
 
+Note: when you run jupyter it will set up a notebook server locally on your machine, launch your default browser, and navigate to the noteook server. If your browser doesn't launch, you can get the link to the browser from the terminal output. You should see something like this:
+```
+The Jupyter Notebook is running at:
+http://localhost:xxxx/?token=sometoken
+```
+In this url, xxxx is the port Jupyter is running on and "sometoken" is a security token used to access the notebook. You should be able to access the Jupyter session by navigating to this link using your favourite browser. If you close your browser, you can return to the Jupyter session by navigating to this link as long as the kernel is still running in your termnial.
+
 __File overview:__
 
 There are two data files for this workshop, found in the 'data' folder:
@@ -125,7 +132,9 @@ Data_Split.txt - Clustering information used to split the data set.
 There are two .ipynb files and one .py file, found in the 'notebooks' folder:
 
 Workshop_noteook.ipynb - This is an incomplete, lightweight version of the problem notebook that we'll use during the demonstration.
+
 Finished_notebook.ipynb - This is a complete notebook containing the full solution to the toy problem we'll be exploring in the demonstration, together with extensive markdown documentation and some extra code and figures.
+
 plotting.py - This is some code we'll be using to generate figures in the notebooks.
 
 There is a file called fergalicious.yml in the top-level directory. This file specifies the conda environment we'll be using during the workshop, and can be used by conda to automatically build the environment for us.
