@@ -132,6 +132,7 @@ Data_Split.txt - Clustering information used to split the data set.
 There are two .ipynb files and one .py file, found in the 'notebooks' folder:
 
 Workshop_noteook.ipynb - This is an incomplete, lightweight version of the problem notebook that we'll use during the demonstration.
+
 Finished_notebook.ipynb - This is a complete notebook containing the full solution to the toy problem we'll be exploring in the demonstration, together with extensive markdown documentation and some extra code and figures.
 plotting.py - This is some code we'll be using to generate figures in the notebooks.
 
