@@ -115,6 +115,13 @@ jupyter-lab
 ```
 From here, you can view the files in your current directory, and choose a kernel to start a new notebook. Try loading Workshop.ipynb and experimenting with the features available.
 
+Note: when you run jupyter it will set up a notebook server locally on your machine, launch your default browser, and navigate to the noteook server. If for whatever reason your browser doesn't launch, you can get the link to the browser from the terminal output. You should see something like this:
+```
+The Jupyter Notebook is running at:
+http://localhost:xxxx/?token=sometoken
+```
+In this url, xxxx is the port Jupyter is running on and "sometoken" is a security token used to access the notebook. You should be able to access the Jupyter session by navigating to this link using your favourite browser. If for whatever reason you close your browser, you can return to the Jupyter session by navigating to this link as long as the kernel is still running in your termnial.
+
 __File overview:__
 
 There are two data files for this workshop, found in the 'data' folder:
