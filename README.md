@@ -7,7 +7,7 @@ Collaberative structural biology using machine learning and Jupyter notebook
 __Introduction:__
 
 Welcome to the GitHub repository containing all materials (excl. raw data) used in the above ISMB workshop.
-This workshop will include a live demonstration that we invite you to join in and follow along on your laptop, or to simply use these materials as a reference. 
+This workshop will include a live demonstration and we invite you to join in and follow along on your laptop, or to simply use these materials as a reference. 
 NOTE: There is no requirement to download anything to particpate in the workshop.
 
 A zip of all materials required can be found on the webpage for the workshop: http://opig.stats.ox.ac.uk/webapps/ISMB_2018.html
