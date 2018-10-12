@@ -26,7 +26,7 @@ conda update conda-build
 ```
 4. Create conda environment for workshop
 ```
-conda env build -f fergalicious.yml
+conda env create -f fergalicious.yml
 ```
 5. Activate conda environment
 ```
