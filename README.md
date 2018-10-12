@@ -63,7 +63,7 @@ _3. Create a conda environment for the workshop:_
 
 The file fergalicious.yml specifies the python version and all packages used when running the notebooks. To create the conda environment from a Terminal window or Anaconda prompt, run:
 ```
-conda env build -f fergalicious.yml
+conda env create -f fergalicious.yml
 ```
 This should create a new conda environment with an installation of python 3.6 and the packages numpy, pandas, scikit-learn, matplotlib, and seaborn. It will also install jupyter, jupyter lab, and nb_conda_kernels (required for jupyter lab to use the python interpreter in this installation as a kernel).
 
